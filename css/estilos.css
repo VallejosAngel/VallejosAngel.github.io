@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto';
+}
+#Principal{
+    border: solid 7px rgba(0, 0, 0, 0.057); 
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(108, 139, 244, 0.342);
+}
+
+legend{
+    border: solid 1px black;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: lightblue;
+}
+
+ul li{
+    list-style: none;
+}
+
+#mifoto{
+    margin: 5px;
+    border: solid 2px grey;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+body{
+   background-image: url(../images/vectores.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+ }
